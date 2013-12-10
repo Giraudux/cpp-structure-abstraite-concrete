@@ -1,8 +1,4 @@
-#include <iostream>
-
-#include "genericite.h"
 #include "cartouchiere.h"
-#include "SDAcartouchiere.h"
 
 using namespace std;
 

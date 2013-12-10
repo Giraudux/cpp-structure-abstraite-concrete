@@ -5,6 +5,11 @@
  * Created on 7 novembre 2013, 16:06
  */
 
+#include <iostream>
+
+#include "cartouchiere.h"
+#include "SDAcartouchiere.h"
+
 #ifndef CARTOUCHIERE_H
 #define	CARTOUCHIERE_H
 
