@@ -1,24 +1,20 @@
-/* 
- * File:   cartouchiere.h
- * Author: didierrobbes
- *
- * Created on 7 novembre 2013, 16:06
- */
+// Alexis Giraudet
 
 #ifndef CARTOUCHIERE_H
 #define	CARTOUCHIERE_H
 
-// le type T_ELT doit etre defini avant 
+#include <exception>
 
-struct cartouchiere {
-    int tmp;
+struct box
+{
+    bool vide;
+    T_ELT elt;
 };
 
-/* 
+struct cartouchiere
+{
+    box *tab;
+    int nb;
+};
 
-// à compléter
-
- cartouchiere ;*/
-
-#endif	/* CARTOUCHIERE_H */
-
+#endif
