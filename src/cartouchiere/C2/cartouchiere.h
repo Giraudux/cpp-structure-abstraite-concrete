@@ -10,15 +10,11 @@
 
 // le type T_ELT doit etre defini avant 
 
-struct cartouchiere {
-    int tmp;
-};
-
-/* 
+typedef 
 
 // à compléter
 
- cartouchiere ;*/
+ cartouchiere ;
 
 #endif	/* CARTOUCHIERE_H */
 

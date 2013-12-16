@@ -12,5 +12,4 @@ C2: prepare
 	@echo "coming soon"
 
 clean:
-	rm -rf ./build
-
+	rm -rfv ./build

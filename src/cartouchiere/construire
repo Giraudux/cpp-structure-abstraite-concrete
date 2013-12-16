@@ -1,0 +1,16 @@
+# sauvegarde du repertoire actuel
+ici=$PWD ;
+
+# on se deplace dans le dossier de la SDC 
+# ($1 est le parametre qui suit la commande construire) 
+cd "$1" ; 
+
+# on compile la SDC
+g++ cartouchiere.cpp -c -I "$ici";
+
+# puis on revient a cote du main
+cd "$ici" ;
+
+# et on le compile en utilisant la SDC
+g++ main.cpp "$1/cartouchiere.o" -o main.exe -I "$1"
+
