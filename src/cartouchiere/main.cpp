@@ -2,7 +2,8 @@
 
 #include "main.h"
 
-int main() {
+int main(int argc, char *argv[])
+{
     std::cout << "Bonjour la France !" << std::endl;
     /*T_ELT rep;
     cout << "donnez une valeur "<<endl;

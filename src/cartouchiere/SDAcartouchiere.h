@@ -10,5 +10,6 @@ int ajouter(cartouchiere &c,T_ELT t);//throw exception
 void retirer(cartouchiere &c, int p);//throw exception
 T_ELT acceder(const cartouchiere &c, int p);//throw exception
 void afficher(const cartouchiere &c);
+void detruire(cartouchiere &c);
 
 #endif

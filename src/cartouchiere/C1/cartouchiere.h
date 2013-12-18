@@ -3,6 +3,7 @@
 #ifndef CARTOUCHIERE_H
 #define	CARTOUCHIERE_H
 
+#include <iostream>
 #include <exception>
 
 struct box
