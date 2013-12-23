@@ -1,20 +1,26 @@
-/* 
- * File:   cartouchiere.h
- * Author: didierrobbes
- *
- * Created on 7 novembre 2013, 16:06
- */
+// Alexis Giraudet
+
+// C2
 
 #ifndef CARTOUCHIERE_H
 #define	CARTOUCHIERE_H
 
-// le type T_ELT doit etre defini avant 
+#include <iostream>
+#include <exception>
 
-typedef 
+struct maillon
+{
+    maillon *pre;
+    maillon *suiv;
+    int numero;
+    T_ELT elt;
+};
+//double chaînage, maillons ordonnés par ordre croissant des numéros
+struct cartouchiere
+{
+    maillon *tete;
+    maillon *queue;
+    int nb;
+};
 
-// à compléter
-
- cartouchiere ;
-
-#endif	/* CARTOUCHIERE_H */
-
+#endif

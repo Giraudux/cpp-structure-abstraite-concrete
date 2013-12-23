@@ -3,6 +3,8 @@
 #ifndef GENERICITE_H
 #define	GENERICITE_H
 
-typedef float T_ELT;
+#include <iostream>
+
+typedef std::string T_ELT;
 
 #endif

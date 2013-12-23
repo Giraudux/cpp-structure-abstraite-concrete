@@ -1,5 +1,7 @@
 // Alexis Giraudet
 
+// C1
+
 #ifndef CARTOUCHIERE_H
 #define	CARTOUCHIERE_H
 
@@ -11,7 +13,7 @@ struct box
     bool vide;
     T_ELT elt;
 };
-
+//tableau de box
 struct cartouchiere
 {
     box *tab;
